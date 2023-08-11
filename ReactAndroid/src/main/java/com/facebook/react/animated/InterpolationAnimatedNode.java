@@ -62,7 +62,7 @@ import java.util.regex.Pattern;
         //PATCH: COMMENTED
         // throw new JSApplicationIllegalArgumentException(
         //     "Invalid extrapolation type " + extrapolateRight + "for left extrapolation");
-        return;
+        return inputMin;
       }
     }
 
@@ -79,7 +79,7 @@ import java.util.regex.Pattern;
           //PATCH: COMMENTED
           // throw new JSApplicationIllegalArgumentException(
           //     "Invalid extrapolation type " + extrapolateRight + "for right extrapolation");
-          return;
+          return inputMax;
       }
     }
 

@@ -43,7 +43,7 @@ import com.facebook.react.bridge.ReadableMap;
       //PATCH: COMMENTED
       // throw new JSApplicationCausedNativeException(
       //     "Illegal node ID set as an input for Animated.DiffClamp node");
-      return;
+      return 0;
     }
 
     return ((ValueAnimatedNode) animatedNode).getValue();
